@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+body{
+	padding: 10px;
+	background: #f6f6f6;
+}
+
+
+svg{box-shadow:0px 0px 15px rgba(0,0,0,0.05);background: #fff;}
+
+.title_bg{fill:#222;}
+.t_title{font-size:16px;font-weight: bold;fill:#fff;}
+.t_title tspan{font-weight: normal;fill:#fff;}
+.t_title2{font-size:12px;font-weight: bold;}
+
+.t_note{font-size:10px;fill:#000;}
+.t_note2{font-size:9px;fill:#000;font-weight: bold;}
+.t_insident-name{font-size:12px;fill:#000;}
+.t_insident-year{font-size:12px;fill:#000;}
+.t_mag{fill:"fff";}
+.t_mag-7{stroke:red;stroke-width:2px;}
+.t_mag-8{stroke:red;stroke-width:3px;}
+.t_mag-9{stroke:red;stroke-width:4px;}
+.hide{display:none;}
+.show{display: block;}
+
+.stroke1{stroke-width:1;stroke:red;}
+.stroke1-c200{stroke:orange;}
+.stroke1-c400{stroke:orange;}
+.stroke1-c600{stroke:orange;}
+.stroke1-c800{stroke:orange;}
+.stroke1-c1000{stroke:orange;}
+.stroke1-c1200{stroke:orange;}
+.stroke1-c1400{stroke:orange;}
+.stroke1-c1600{stroke:orange;}
+.stroke1-c1800{stroke:orange;}
+.stroke1-w7{stroke-width:2;}
+.stroke1-w8{stroke-width:4;}
+.stroke1-w9{stroke-width:10;}
+
+.stroke1b{stroke-width:1;stroke:#fff;fill:none;}
+/*.stroke2{fill:rgba(255,0,0,0.05);}*/
+
+.stroke-level{fill:red;}
+.stroke-level.stroke-level-4{fill:#f4e899;}
+.stroke-level.stroke-level-5{fill:#f7e926;opacity: 0.75;}
+.stroke-level.stroke-level-5s{fill:#e89e1b;opacity: 0.5;}
+.stroke-level.stroke-level-6{fill:#de3a11;opacity: 0.5;}
+.stroke-level.stroke-level-6s{fill:#8e1623;opacity: 0.5;}
+.stroke-level.stroke-level-7{fill:#9c1368;opacity: 0.5;}
+
+.legends-text{font-size:10px;}
+
+
+.mod-en{font-family: 'Oswald', sans-serif;}
+.mod-min{font-family:'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;}
+
+.mod-date{}
+.mod-date text{font-size:16px;fill:#000;font-weight: bold;}
+/* .mod-date text{font-size:50px;fill:#000;font-weight: bold;}*/
+.mod-date tspan{font-size:10px;font-weight: normal;fill:#000;}
+.t_label{font-size:20px;font-weight: bold;}
+
+.mod-clock{}
+.mod-clock ._bg{fill:green;stroke-width:3;stroke:#fff;}
+.mod-clock ._h{fill:#fff;}
+.mod-clock ._m{fill:#fff;}
+.mod-clock .t_day{font-size:12px;fill:#69de5a}
+
